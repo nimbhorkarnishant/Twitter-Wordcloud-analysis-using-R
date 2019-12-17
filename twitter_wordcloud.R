@@ -13,7 +13,7 @@ lapply(libs, require, character.only=TRUE)
 options(stringsAsFactors = FALSE)
 
 
-create_file="C:/Users/Nishant Nimbhorkar/Desktop/Data science data/descriptive/Skill develpemrnt/R file/twitter_oauth.txt"
+create_file="./twitter_oauth.txt"  #add twitter api authentication file here
 
 
 #function for authentication of twitter api
